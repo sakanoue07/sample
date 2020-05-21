@@ -14,7 +14,6 @@ gem 'bcrypt',         '3.1.12'
 gem 'faker',          '1.9.1'
 gem 'will_paginate', '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -38,6 +37,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'sqlite3', '~> 1.4'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
